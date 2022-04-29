@@ -1,0 +1,482 @@
+/* Header */
+
+header .logo img{
+  width: 20em; 
+  margin: 1em 0;
+}
+header .menu .opt-item i{
+  font-size:20px; 
+  color: #B6A188;
+}
+header .menu .opt-item h1{
+  font-weight: bold; 
+  padding-left: 1em;
+  font-size: 1em;
+}
+header .menu .opt-item .text{
+  margin-left: 1em; 
+  padding-left: 1em;
+
+}
+header .sub-menu{
+  padding: 1.1em 0; 
+  background-color: #F7F7F7;
+}
+header .sub-menu .nav-item a{
+  color: black; 
+  font-size: .8em; 
+  margin-right: 5em;
+}
+
+/* Seccion 1 pagina inicio*/
+.seccion1 .imageDiv img{
+  width: 100%;
+  height: 40em; 
+  object-fit: cover;
+}
+.imageDiv{
+  background: #fff;
+  display: block;
+  height: 30em;
+  border-radius: 2px 2px 2px 2px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.bottomDiv{
+   position:relative;
+   width: 65%;
+   bottom:80px;
+   left: 16em;
+   border-radius: 1em;
+   height: 30em;
+}
+
+.seccion1 .bottomDiv{
+  background-color: #E6E6E6;
+}
+.seccion1 .bottomDiv h2{
+  margin-top: 1.5em; 
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.seccion1 .bottomDiv p{
+  text-align: justify; 
+  font-size: .9em; 
+  padding-top: 1em;
+}
+
+/* Seccion 2 pagina inicio */
+.seccion2 .container{
+  padding: 3em 0;
+}
+.seccion2 .container .title{
+  font-weight: bold; 
+  font-size: 1.2em; 
+  color: #B3B3B3;
+}
+.seccion2 .container .sub-title{
+  font-weight: bold; 
+  font-size: 1.8em; 
+  padding-bottom: 0em;
+}
+.seccion2 .container .raya{
+  width: 5em; 
+  color: #BFA46D; 
+  padding: .2em; 
+  margin-left: 38em;
+  margin-top: 0;
+}
+.boxwrap{
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+  }
+  
+  .box{
+    width: 290px;
+    height: 70px;
+  }
+  
+  #box1{
+    margin-left: 2em;
+    background-image: url('../images/abogado.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33em;
+    width: 50%;
+  }
+  
+  #box2{
+    margin-top: -200px;
+    margin-bottom: -75px;
+    margin-left: 25em;
+    background-color: #BFA46D;
+  }
+  
+  #box3{
+    margin-left: 100px;
+    background-color: green;
+  }
+ /* SECCION INICIO FORMULARIO */
+ .seccion3{
+  background-image: url('../images/fondoFormulario.jpg');  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  opacity: 0.9;
+  padding: 5em 0;
+}
+.seccion3 .formulario .title{
+  font-weight: bold; 
+  font-size: 1.5em; 
+  color: white; 
+  margin: 0;
+}
+.seccion3 .formulario .sub-title{
+  font-size: 1.1em; 
+  color: white; 
+  margin: 0;
+}
+.seccion3 .formulario .raya{
+  width: 5em; 
+  color: white; 
+  padding: .2em; 
+  margin-top: 0;
+  margin-left: 18em;
+}
+.seccion3 .formulario .cont-formul{
+  margin-top: 1em;
+}
+.input::placeholder{
+  color: white;
+}
+.seccion3 .formulario .cont-formul .input1{
+  background-color: #1C1A1A; 
+  border: none; 
+  height: 3em; 
+  color: white;
+}
+.seccion3 .formulario .cont-formul .input2{
+  background-color: #1C1A1A; 
+  border: none;
+  color: white;
+}
+.seccion3 .formulario .cont-formul button{
+  background-color: #BFA46D; 
+  color: white; 
+  font-weight: bold; 
+  height: 3em;
+}
+
+/* Seccion 4 equipo de trabajo pagina inicio */
+.seccion4 .container-equipo{
+  background-color: #F3F3F3;
+  height: 35em; 
+  margin-bottom: 14em; 
+  padding-top: 3em;
+}
+.seccion4 .container-equipo h1{
+  margin: 0; 
+  font-size: 1.7em; 
+  font-weight: bold;
+}
+.seccion4 .container-equipo p{
+  margin: 0; 
+  font-size: 1em;
+}
+.seccion4 .container-equipo .box{
+  margin-top: 2em;
+}
+.seccion4 .container-equipo .titulo{
+  color: white; 
+  font-size: .8em;
+  font-weight: bold; 
+  margin:0;
+  padding-top: 1em;
+}
+.seccion4 .container-equipo .puesto{
+  color: white;
+  margin:0;
+}
+
+
+
+/* Seccion 1 pagina 2 quienes somos*/
+.seccion1Somos{
+  height: 45em;
+}
+.seccion1Somos .banner img{
+  width: 100%;
+  height: 35em; 
+  object-fit: cover;
+}
+.seccion1Somos .bottomSomos .raya{
+  width: 5em;
+  color: #E5E5E5 ;
+  padding: .2em; 
+  margin-left: 3em;
+  margin-top: 0;
+}
+.seccion1Somos .bottomSomos .owl-container .item img{
+  height: 100%; 
+  padding: 1em;
+}
+.imageSomos{
+  background: #fff;
+  display: block;
+  height: 30em;
+  border-radius: 2px 2px 2px 2px;
+}
+.seccion2Somos .container-acerca .title{
+  font-size: 1.8em;
+  margin-top: 5em; 
+  font-weight: bold;
+}
+.seccion2Somos .container-acerca .raya{
+  border-bottom: solid red 5px;
+  width: 5em; 
+  margin-left: 25em;
+  margin-top: -.5em;
+}
+.seccion2Somos .container-acerca img{
+  margin-left: 8em; 
+  margin-top: 0em;
+}
+.seccion2Somos .container-acerca .texto{
+  text-align: justify; 
+  font-size: .9em;
+} 
+.seccion2Somos .container-mision h1{
+  font-size: 1.8em;
+  margin-top: 1em; 
+  font-weight: bold;
+}
+.seccion2Somos .container-mision hr{
+  border-bottom: solid red 5px;
+  width: 6em; 
+  margin-left: 24em; 
+  margin-top: -.5em;
+}
+.seccion2Somos .container-mision p{
+  text-align: justify; 
+  font-size: .9em;
+}
+.seccion2Somos .container h1{
+  font-size: 1.8em;
+  margin-top: 1em; 
+  font-weight: bold; 
+  margin-bottom: 1.5em;
+}
+.seccion2Somos .container .valores{
+  background-color: #E5E5E5; 
+  margin-bottom: 3em;
+}
+.seccion2Somos .container .valores .opt{
+  padding: 1em 0;
+}
+
+
+.bottomSomos{
+  position:relative;
+  width: 70%;
+  bottom:15em;
+  left:250px;
+  border-radius: 1em;
+  background-color: transparent;
+}
+  
+  .title-somos{
+    text-align: left;
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+  }
+  .owl-container{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .item{
+    background: #F2F2F2;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    height: 23rem;
+    display: flex;
+  }
+  .item h4{
+    font-size: 38px;
+  }
+
+
+/* Footer */
+footer .header-logo{
+  background-color: #1D1D1D;
+}
+footer .header-logo img{
+  width: 20em;
+}
+footer .informacion{
+  background-color: #1D1D1D;
+}
+footer .informacion .item-footer{
+  padding: 3em 0;
+}
+footer .informacion .item-footer .p1{
+  color: white; 
+  font-weight: bold; 
+  border-bottom: solid #B6A188 3px; 
+  width: 12em;
+}
+footer .informacion .item-footer .p2{
+  color: white; 
+  margin: 0;
+}
+footer .informacion .item-footer .p3{
+  color: white;
+}
+footer .informacion .item-footer .contacto{
+  padding-top: 2.5em;
+}
+footer .informacion .item-footer .contacto .fa-phone{
+  font-size:20px; 
+  color: #B6A188;
+}
+footer .informacion .item-footer .contacto .tel{
+  font-weight: bold; 
+  padding-left: 1em; 
+  color: white;
+}
+footer .informacion .item-footer .contacto .fa-envelope{
+  font-size:20px; 
+  color: #B6A188;
+}
+footer .informacion .item-footer .contacto .mail{
+  font-weight: bold; 
+  padding-left: 1em; 
+  color: white;
+}
+footer .leyenda{
+  background-color: #111111;
+}
+footer .leyenda p{
+  color: white; 
+  font-weight: bold; 
+  padding: 1.5em 0;
+}
+
+/* MEDIA QUERY */
+
+/* -->Tamaño de laptop */
+@media screen and (min-width: 601px) and (max-width: 1280px){
+
+}
+
+/* -->Tamaño movil */
+@media (max-width: 600px){
+/* Media query pagina inicio, header y footer */
+  header .logo img {
+    width: 12em
+  }
+  header .menu .opt-item{
+    margin-left: 4em;
+  }
+  .seccion1 .imageDiv img{
+    height: 25em;
+  } 
+  .imageDiv{
+    height: 25em;
+  }
+  .bottomDiv{
+    left: 1em;
+    width: 90%;
+  }
+  .seccion1 .bottomDiv h2 {
+    font-size: .9em;
+  }
+  .seccion1 .bottomDiv p {
+    font-size: .5em;
+  }
+  .seccion2{
+    margin-right: 1.5em;
+  }
+  .seccion2 .container .raya {
+    margin-left: 9em;
+  }
+  .seccion2 .container {
+    padding: 0em 0;
+  }
+  .seccion2 .container .title{
+    font-size: 1em;
+  }
+  .seccion2 .container .sub-title {
+    font-size: 1.2em;
+  }
+  .seccion4 .container-equipo {
+    height: 18em;
+    margin-bottom: 6em;
+    padding-top: 1em;
+  }
+
+  #box1 {
+    margin-left: 0em;
+    height: 14em;
+    width: 80%;
+  }
+  .seccion4 .container-equipo .titulo {
+    font-size: .6em;
+    margin: 0;
+  }
+  #box2 {
+    margin-top: -86px;
+    margin-left: 2em;
+    height: 3em;
+  }
+  .box {
+    width: 12em;
+  }
+  .seccion4 .container-equipo .puesto {
+    font-size: .6em;
+  }
+  .seccion4 .container-equipo h1 {
+    font-size: 1.2em;
+  }
+  .seccion4 .container-equipo p {
+    font-size: .7em;
+  } 
+  footer .header-logo img {
+    width: 16em;
+  }
+  footer .informacion{
+    padding-left: 5em;
+  }
+  footer .leyenda p{
+    font-size: .6em;
+  }
+  /* Media query pagina somos*/
+  .seccion1Somos .banner img {
+    width: 100%;
+    height: 20em;
+  }
+  .bottomSomos{
+    left: 4em;
+  }
+  .title-somos{
+    font-size: 1.7em;
+  }
+  .seccion1Somos {
+    height: 30em;
+  }
+  .seccion2Somos .container-acerca img{
+    margin: 0;
+    width: 15em;
+  }
+  .seccion2Somos .container-acerca .raya{
+    margin-left: 5em;
+  }
+  .seccion2Somos .container-mision hr{
+    margin-left: 4em;
+  }
+
+}
